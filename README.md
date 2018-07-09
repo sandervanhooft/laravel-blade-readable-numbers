@@ -5,7 +5,7 @@
 [![Total Downloads](https://img.shields.io/packagist/dt/sandervanhooft/laravel-blade-readable-numbers.svg?style=flat-square)](https://packagist.org/packages/sandervanhooft/laravel-blade-readable-numbers)
 <!-- [![SensioLabsInsight](https://img.shields.io/sensiolabs/i/xxxxxxxxx.svg?style=flat-square)](https://insight.sensiolabs.com/projects/xxxxxxxxx)
 [![Quality Score](https://img.shields.io/scrutinizer/g/sandervanhooft/laravel-blade-readable-numbers.svg?style=flat-square)](https://scrutinizer-ci.com/g/sandervanhooft/laravel-blade-readable-numbers) -->
-Provides the `@readable_int` directive to Laravel's Blade templating system. This way you can shorten numbers into strings like `123K+`.
+Adds the `@readable_int` directive to Laravel's Blade templating system. This way you can shorten numbers into strings like `123K+`.
 
 ## Installation
 
