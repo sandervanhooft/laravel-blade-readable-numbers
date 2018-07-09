@@ -46,6 +46,7 @@ If you discover any security related issues, please email info@sandervanhooft.co
 
 - [Sander van Hooft](https://github.com/sandervanhooft)
 - [Appstract](https://github.com/appstract/laravel-blade-directives) for blade directive testing methods
+- [Radley Sustaire (RadGH)](https://github.com/RadGH) and [Hassan Amir Khan (hassanamirkhan)](https://github.com/hassanamirkhan) for [the short-number-format gist](https://gist.github.com/RadGH/84edff0cc81e6326029c).
 - [All Contributors](../../contributors)
 
 ## Never miss a new package release
