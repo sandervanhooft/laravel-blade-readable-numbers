@@ -5,6 +5,20 @@ namespace SanderVanHooft\Tests\ReadableNumbers;
 class ConvertsNumberToHumanReadableTest extends BaseTestCase
 {
     /** @test */
+    public function convertsNumberToHumanReadableZero()
+    {
+        $blade = '@readable_int(0)';
+        $this->assertBladeRenders("0", $blade);
+    }
+
+    /** @test */
+    public function convertsNumberToHumanReadableNormal()
+    {
+        $blade = '@readable_int(784)';
+        $this->assertBladeRenders("784", $blade);
+    }
+
+    /** @test */
     public function convertsNumberToHumanReadableThousands()
     {
         $blade = '@readable_int(123456)';

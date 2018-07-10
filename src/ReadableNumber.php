@@ -6,7 +6,7 @@ class ReadableNumber
 {
     public static function format(Int $n)
     {
-        if ($n > 0 && $n < 1000) {
+        if ($n >= 0 && $n < 1000) {
             // 1 - 999
             $n_format = floor($n);
             $suffix = '';
